@@ -106,6 +106,14 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib_1);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos_1);
 
+    // Cálculos para o desafio aventureiro Carta 1
+
+    float densid_populacional1 = populacao_1 / area_km_1;
+    float pib_percapita1 = pib_1 / populacao_1;
+
+    printf("Densidade Populacional: %.2f hab/km2\n", densid_populacional1);
+    printf("PIB per Capital: %.2f reais\n", pib_percapita1);
+
     // Apresentação da Carta 2
 
     printf("\nCarta 2:\n");
@@ -116,6 +124,14 @@ int main() {
     printf("Área: %.2f km2\n", area_km_2);
     printf("PIB: %.2f bilhões de reais\n", pib_2);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos_2);
+
+    // Cálculos para o desafio aventureiro Carta 2
+
+    float densid_populacional2 = populacao_2 / area_km_2;
+    float pib_percapita2 = pib_2 / populacao_2;
+
+    printf("Densidade Populacional: %.2f hab/km2\n", densid_populacional2);
+    printf("PIB per Capital: %.2f reais\n", pib_percapita2);
 
     return 0;
 }
